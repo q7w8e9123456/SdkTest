@@ -3,6 +3,7 @@ package com.gamania.sdktest
 class SdkModel {
 
     private var version: Int = 0
+    private var account: Int = 0
 
     fun setModelValue(ver: Int) {
         version = ver
@@ -10,5 +11,13 @@ class SdkModel {
 
     fun getModelValue():Int {
         return version
+    }
+
+    fun setAccount(acc: Int) {
+        account = acc
+    }
+
+    fun getAccount(): Int {
+        return account
     }
 }
