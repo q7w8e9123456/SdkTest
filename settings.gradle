@@ -1,3 +1,2 @@
-include ':firstlibrary'
 include ':app'
 rootProject.name = "SdkTest"
